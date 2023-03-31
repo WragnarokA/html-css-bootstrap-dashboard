@@ -1,0 +1,190 @@
+    /* GENERICI */
+    
+    
+    /******* HEADER  ******/
+    /* NAVBAR  */
+    .nav_bar{
+        width: 100%;
+        height: 70px;
+        padding: 1rem;
+        position: relative;
+     
+    }
+    .bar{ min-height: 40px;}
+    
+    .mobile-logo{
+        position: absolute;
+        height: 40px;
+        top: 16px;
+        left: 8px;
+    }
+    
+    .logo{ display: none;}
+    
+    .search{margin-left: 25px;}  
+    
+    .icons{display: none;}
+
+    
+
+    /* MAIN CONTENT  */
+    .container-main{
+        width: 100vw;
+        height: calc(100vh - 70px);
+        background-color: red;
+    }
+    /* MAIN LEFT SIDEBAR */
+    .sidebar{
+        min-width: 150px;
+        height: 100%;
+        background-color: #12293e;
+    }
+    /* MAIN RIGHT STAIDA  */
+    .stadia{
+        max-width:calc(100vw - 150px);
+        height: 100%;
+        overflow-y: auto;
+        background-color: aquamarine;
+    }
+
+
+    
+    
+    /* FOOTER  */
+/*************************************/
+/******* XS RESPONSIVE:  *******/
+/* @media screen and (max-width: 575px) { */
+
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+   
+    
+
+    /* MAIN CONTENT  */
+
+
+    
+    
+    /* FOOTER  */
+
+
+
+
+
+/**************************************/
+/******* SM RESPONSIVE:  *******/
+@media screen and (min-width: 576px)  {
+ 
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    .logo{
+        display: none;
+    }
+    .mobile-logo{display: block;}
+
+    .search{margin-left: 25px;}  
+    
+    
+    
+    /* MAIN CONTENT  */
+
+    
+    
+    /* FOOTER  */
+    
+}
+
+
+/******************************************/
+/******* MD- RESPONSIVE:    *******/
+@media screen and (min-width: 768px)  {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+    
+}
+
+
+/************************************************/
+/******* LG - RESPONSIVE:*******/
+@media screen and (min-width: 992px) {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    .logo{display: block;}
+    .mobile-logo{ display: none;}
+    .icons{display: block;}
+
+
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+    
+}
+
+/************************************************/
+/******* XL - RESPONSIVE:    *******/
+@media screen and (min-width: 1200px) {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+
+    
+    /* MAIN CONTENT  */
+   
+
+        
+
+    
+    
+    /* FOOTER  */
+    
+}
+
+/************************************************/
+/******* XXL- RESPONSIVE: LARGE DEKSTOP   *******/
+@media screen and (min-width: 1400px) {
+
+    
+    
+    /* GENERICI */
+    
+    
+    /* HEADER  */
+    
+    
+    
+    /* MAIN CONTENT  */
+    
+    
+    /* FOOTER  */
+    
+}
+
