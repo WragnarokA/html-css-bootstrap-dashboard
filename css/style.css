@@ -26,26 +26,59 @@
     .icons{display: none;}
 
     
-
-    /* MAIN CONTENT  */
+    /******* MAIN  ******/
     .container-main{
         width: 100vw;
         height: calc(100vh - 70px);
-        background-color: red;
+        display: flex;
     }
     /* MAIN LEFT SIDEBAR */
     .sidebar{
-        min-width: 150px;
+        min-width: 70px;
         height: 100%;
         background-color: #12293e;
     }
+    .sidebar-top{
+        width: 100%;
+        height: 50%;
+    }
+    .list-home{display: none;}
+    .admin{display: none;}
+
+    .sidebar-bottom{
+        width: 100%;
+        height: 50%;
+    }
+
+
     /* MAIN RIGHT STAIDA  */
     .stadia{
-        max-width:calc(100vw - 150px);
+        min-width:calc(100vw - 70px);
         height: 100%;
         overflow-y: auto;
-        background-color: aquamarine;
     }
+
+    .boolean-bar{
+        width: 100%;
+        min-height: 125px;
+        background-color: #1b72e8;
+        display: flex;
+        flex-direction: column;
+    }
+        
+
+
+    .boolean-top{
+        padding: 1.5rem 0 0.7rem 2rem;
+        gap: 1rem;
+    }
+    .plus-r{
+        position: absolute;
+        padding-left: 5rem;
+    }
+
+    .button-r{display: none;}
+        
 
 
     
@@ -83,9 +116,8 @@
     
     
     /* HEADER  */
-    .logo{
-        display: none;
-    }
+    .logo{display: none;}
+
     .mobile-logo{display: block;}
 
     .search{margin-left: 25px;}  
@@ -114,7 +146,8 @@
     
     
     /* MAIN CONTENT  */
-    
+    .boolean-bar{flex-direction: row;}
+    .boolean-right{}
     
     /* FOOTER  */
     
@@ -135,10 +168,19 @@
     .mobile-logo{ display: none;}
     .icons{display: block;}
 
+    /* MAIN CONTENT  */
+    .sidebar{min-width: 150px;}
+    .stadia{min-width:calc(100vw - 150px);}
+
+    .list-home{display:inline-block;}
+    .admin{display:inline-block;}
+
+    /* MAIN RIGHT STAIDA  */
+    .plus-r{display: none;}
+    .button-r{display: inline-block;}
 
     
     
-    /* MAIN CONTENT  */
     
     
     /* FOOTER  */

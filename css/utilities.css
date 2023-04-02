@@ -15,17 +15,18 @@
     --secondary-col: #141922;
 }
 
-.bg-white      {background-color: white;}
+.bg-w     {background-color: white;}
 .bg-black      {background-color: black;}
 .bg-grey       {background-color: lightgrey !important;}
 .bg-gb         {background-color: #3a546d;}
 .bg-verdemarin {background-color: #1abc9c; }
-.bg-red {background-color: red;}
-.bg-green {background-color: green;}
-.bg-blu {background-color: blue;}
+.bg-red        {background-color: red;}
+.bg-green      {background-color: green;}
+.bg-blu        {background-color: blue;}
+.bg-bb         {background-color: #165bba !important;}
 
 .fg_black      {color: black;}
-.fg-white      {color: white;}
+.fg-w      {color: white !important;}
 .fg-lightgrey  {color: lightgray;}
 .fg-grey       {color: #6b6b6b;}
 
@@ -90,7 +91,7 @@
 
 .pb_05 {padding-bottom: 0.5rem;}
 
-.pl_14 {padding-left: 14rem;}
+.pl_103 {padding-left: 1.3rem;}
 
 .px-1 {
     padding-left: 1rem;

@@ -7,6 +7,7 @@
     <title>bootstrap-dashboard</title>
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
@@ -44,17 +45,33 @@
     
     <!-- MAIN  -->
     <main>
-        <div class="container-main flex">
+        <div class="container-main ">
 
             <!-- MAIN LEFT SIDEBAR  -->
-            <div class="sidebar">
+            <div class="sidebar  fg-w ">
 
-                <div class="sidebar-top">
-
+                <div class="sidebar-top flex gap-2">
+                    <div>
+                        <ul class="lst pl_103 ">
+                            <li class="pt-3"><i class="fa-solid fa-house"></i></li>
+                            <li class="pt-3"><i class="fa-solid fa-chart-simple"></i></li>
+                            <li class="pt-3"><i class="fa-solid fa-signal"></i></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="list-home lst p-0 ">
+                            <li class="pt-3">Home</li>
+                            <li class="pt-3">Stats</li>
+                            <li class="pt-3">Signals</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="sidebar-bottom">
 
+                <div class="sidebar-bottom flex align-items-end gap-2">
+                    <p class="pl_103 "><i class="fa-solid fa-gear"></i></p>
+                    <p class="admin">Admin</p>
                 </div>
+
 
             </div>
 
@@ -62,11 +79,50 @@
             <!-- MAIN RIGHT STAIDA  -->
             <div class="stadia">
 
+                <div class="boolean-bar fg-w ">
+
+                    <div class="boolean-left order-2 col-sm-4 col-lg-5 ">
+
+                        <span class="boolean-top  lst flex align-items-center pb-0 mr-4">
+                            <span class="fw-bold fs-2"> Boolean</span>
+                            <li><button type="hbutton" class="btn bg-bb fg-w" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Piano blaze</button></li>
+                        </span>
+
+                        <ul class=" boolean-bottom lst gap-3 flex  ">
+                            <li><button type="hbutton" class="btn bg-bb fg-w" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">3 app</button></li>
+                            <li><i class="fa-solid fa-angles-right"></i></li>
+                            <li class="plus-r"><button type="hbutton" class="btn bg-bb fg-w" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"> + </button></li>
+                            <li class="button-r"><button type="hbutton" class="btn bg-bb fg-w" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Boolean mobile app</button></li>
+                            <li class="button-r"><button type="hbutton" class="btn bg-bb fg-w" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Boolean web app</button></li>
+                            <li class="button-r"><button type="hbutton" class="btn bg-bb fg-w" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Boolean blog app</button></li>
+                        </ul>
+                        
+                    </div>
+                    
+                    <div class="boolean-center order-2 pl-2 col-sm-4 col-lg-3 offset-lg-1">
+                        <p class="pt-4">Studenti online negli ultimi 30 minuti</p>
+                        <p class="fs-2">125</p>
+                    </div>
+
+                    <div class="boolean-right order-1 order-md-3 col-sm-4 col-lg-2  offset-xl-1">
+                        <div class="pt-4 flex align-items-center pl-2"> 
+                            <div class="pr-1"> Nuovo studente </div>
+                            <button type="button" class="btn btn-outline-light"> + </button>
+                        </div>
+                    </div>
 
 
+                </div>
+
+                
+               
             </div>
 
         </div>
+                       
+
+
+
 
 
     </main>
