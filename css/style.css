@@ -84,11 +84,13 @@
     /* MAIN LEFT  */
     .container-staida-left{
         height: 100%;
-        padding: 2rem;
+        padding: 1rem;
     }
     /* MAIN RIGHT  */
     .container-staida-right{
        height: 100%;
+       padding: 1rem;
+
     }
     .tabel{
         border: 2px solid black;
@@ -144,6 +146,7 @@
     
     
     /* MAIN CONTENT  */
+    
 
     
     
