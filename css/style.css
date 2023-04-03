@@ -64,10 +64,8 @@
         background-color: #1b72e8;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
-        
-
-
     .boolean-top{
         padding: 1.5rem 0 0.7rem 2rem;
         gap: 1rem;
@@ -78,6 +76,28 @@
     }
 
     .button-r{display: none;}
+    
+    .container-staida{
+        height: 100%;
+    }
+     
+    /* MAIN LEFT  */
+    .container-staida-left{
+        height: 100%;
+        padding: 2rem;
+    }
+    /* MAIN RIGHT  */
+    .container-staida-right{
+       height: 100%;
+       background-color: blueviolet;
+    }
+    .tabel{
+        border: 2px solid black;
+
+    }
+    .img-avatar{width: 2rem;}
+
+
         
 
 
